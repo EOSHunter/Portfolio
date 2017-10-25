@@ -1,0 +1,518 @@
+body {
+	background-color: rgb(224, 224, 224);
+	font-family: 'Quicksand', sans-serif;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+#wrapper {
+	float: left;
+    width: 70%;
+    margin: 0 15%;
+    padding-bottom: 150px;
+}
+
+img {
+	outline: none;
+}
+
+.portrait {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.portrait-photo{
+	width: 100%;
+    margin: 0 auto;
+    margin-top: 20%;
+    padding-bottom: 9%;
+}
+
+/*====| NAV START |====================================================================================| NAV START |===============================*/
+
+.nav-container {
+	background-color: rgb(56, 56, 56);
+	height: 50px;
+	line-height: 50px;
+	width: 100%;
+}
+
+.top-nav {
+	margin: 0 auto;
+	text-align: center;
+	width: 60%;
+}
+
+.nav-container ul {
+    margin: 0 40px 0 0;
+}
+
+.nav-container a {
+	color: rgb(228, 228, 228);
+	font-size: .7em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.nav-container a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+.nav-container li {
+	display: inline-block;
+	margin: 0 7%;
+	text-align: center;
+}
+
+
+.footer-nav-container {
+	width: 100%;
+}
+
+.footer-nav {
+	text-align: left;
+	width: 100%;
+	position: relative;
+	left: -40px;
+}
+
+.footer-nav-container li {
+	display: inline-block;
+	margin-right: 12%;
+	text-align: left;
+}
+
+.footer-nav-container a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+.footer-nav-container a {
+	color: rgb(228, 228, 228);
+	font-size: .7em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+footer {
+	background-color: rgb(56, 56, 56);
+	color: white;
+	float: left;
+	width: 100%;
+	z-index: 1;
+}
+
+.footer-container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.footer-right {
+	float: left;
+    margin: 0 auto;
+    padding: 2%;
+	width: 33%;
+}
+
+.footer-right p {
+	text-decoration: none;
+    overflow: hidden;
+    border-bottom: 1px solid;
+    padding-bottom: 20px;
+    width: 184px;
+}
+
+.footer-left {
+	float: left;
+	padding: 2%;
+	width: 58%;
+}
+
+.linkedin, .r2h {
+	width: 15%;
+	display: inline-block;
+}
+
+.social p {
+	display: inline-block;
+	line-height: 12%;
+}
+
+.social img {
+	display: inline-block;
+	margin-right: 10%;
+}
+
+.social a {
+	color: white;
+	text-decoration: none;
+	line-height: 4;
+}
+
+.linkedin-container a:hover {
+	text-decoration: underline;
+}
+
+/*====| NAV END |====================================================================================| NAV END |===============================*/
+
+
+
+
+
+
+
+/*====| HOME START |====================================================================================| HOME START |===============================*/
+
+
+.sections {
+    height: 300px;
+    margin-left: 33.3%;
+    width: 100%;
+}
+
+.section-about {
+	background-color: rgba(255,255,255, 0.6);
+	border: 1px solid rgb(212, 212, 212);
+	color: black;
+	margin: 2%;
+	padding: 1%;
+	margin-top: 4%;
+}
+
+.section-anchor {
+	text-decoration: none;
+}
+
+.section-home a {
+	color: black;
+	text-decoration: none;
+}
+
+.banner-image {
+	margin-top: 2%;
+	width: 100%;
+}
+
+.main-h1 {
+	text-align: center;
+	margin-top: 4%;
+}
+
+.background-wrapper {
+	width: 100%;
+	overflow: hidden;
+}
+
+.bg-img-1 {
+	left: 3%;
+    position: absolute;
+    top: 200px;
+    width: 60%;
+    z-index: -9;
+}
+
+.bg-img-2 {
+	margin-bottom: 10%;
+    position: absolute;
+    right: 3%;
+    top: 635px;
+    width: 60%;
+    z-index: -10;
+}
+
+.bg-img-3 {
+	margin-bottom: 10%;
+    position: absolute;
+    left: 3%;
+    top: 700px;
+    width: 60%;
+    z-index: -8;
+    display: none;
+}
+
+.bg-img-4 {
+	margin-bottom: 10%;
+    position: absolute;
+    left: 3%;
+    top: 900px;
+    width: 60%;
+    z-index: -8;
+    display: none;
+}
+
+.section-home {
+	background-color: rgba(255,255,255, 0.6);
+	border: 1px solid rgb(212, 212, 212);
+	color: black;
+	margin: 2%;
+	padding: 1%;
+}
+
+.section-project {
+	background-color: rgba(255,255,255, 0.8);
+	border: 1px solid rgb(212, 212, 212);
+	color: black;
+	margin: 2%;
+	padding: 1%;
+}
+
+.section-project a {
+	text-decoration: none;
+	color: #282828;
+}
+
+.section-project img {
+    border: 1px solid rgb(128, 128, 128);
+    width: 100%;
+}
+
+.project-title {
+	color: rgb(156, 76, 103);
+}
+
+/*====| HOME END |====================================================================================| HOME END |===============================*/
+
+
+
+@media screen and (min-width: 320px) and (max-width: 400px) {
+
+	.nav-container {
+		height: 260px;
+		text-align: center;
+	}
+
+	.top-nav li {
+		display: block;
+	}
+
+	.bg-img-1 {
+		left: 5%;
+	    position: absolute;
+	    top: 37%;
+	    width: 90%;
+	    z-index: -9;
+	}
+
+	.bg-img-2 {
+		margin-bottom: 10%;
+	    position: absolute;
+	    right: 5%;
+	    top: 88%;
+	    width: 90%;
+	    z-index: -10;
+	}
+
+	.bg-img-3 {
+	    display: block;		
+		margin-bottom: 10%;
+	    position: absolute;
+	    left: 5%;
+	    top: 138%;
+	    width: 90%;
+	    z-index: -8;
+	}
+
+	.bg-img-4 {
+	    display: block;		
+		margin-bottom: 10%;
+	    position: absolute;
+	    left: 5%;
+	    top: 189%;
+	    width: 90%;
+	    z-index: -8;
+	}
+
+	.section-home {
+	    font-size: 13px;
+	    background-color: rgba(255,255,255, 0.6);
+	    border: 1px solid rgb(212, 212, 212);
+	    color: rgb(0, 0, 0);
+	    margin: 2%;
+	    padding: 1%;
+	}
+
+	.section-project {
+	    background-color: rgba(255,255,255, 0.6);
+	    border: 1px solid rgb(212, 212, 212);
+	    color: rgb(0, 0, 0);
+	    font-size: 13px;
+	    margin: 2%;
+	    padding: 1%;
+	}
+
+	.footer-nav-container li {
+		display: inline-block;
+		margin-right: 12%;
+		text-align: left;
+	}
+}
+
+@media screen and (min-width: 500px) and (max-width: 1576px) {
+	.top-nav {
+		margin: 0 auto;
+		text-align: center;
+		width: 80%;
+	}
+
+	.footer-nav-container li {
+		display: inline-block;
+		margin-right: 12%;
+		padding-top: 2%;
+		text-align: left;
+	}
+}
+
+@media screen and (min-width: 500px) and (max-width: 875px) {
+	.footer-nav-container li {
+		display: block;
+		margin-right: 12%;
+		padding-top: 2%;
+		text-align: left;
+	}
+
+	.bg-img-1 {
+		left: 3%;
+	    position: absolute;
+	    top: 200px;
+	    width: 60%;
+	    z-index: -9;
+	}
+
+	.bg-img-2 {
+		margin-bottom: 10%;
+	    position: absolute;
+	    right: 3%;
+	    top: 490px;
+	    width: 60%;
+	    z-index: -10;
+	}
+
+	.bg-img-3 {
+		margin-bottom: 10%;
+	    position: absolute;
+	    left: 3%;
+	    top: 760px;
+	    width: 60%;
+	    z-index: -8;
+	    display: block;
+	}
+
+	.bg-img-4 {
+		margin-bottom: 10%;
+	    position: absolute;
+	    left: 37%;
+	    top: 1045px;
+	    width: 60%;
+	    z-index: -8;
+	    display: block;
+	}
+}
+
+#form {
+	width: 35%;
+    margin-left: 5%;
+    display: inline-block;
+}
+
+
+#form label {
+	display: block;
+	margin-bottom: 10px;
+	margin-top: 15px;
+	width: 100%;
+	font-weight: bold;
+}
+
+#form input {
+	display: block;
+    margin-bottom: 10px;
+    padding: 9px;
+    width: 100%;
+    border-radius: 8px;
+    outline: none;
+    height: 17px;
+    border: 1px solid rgb(128, 128, 128);
+}
+
+#form .submit {
+	background: linear-gradient(-180deg, #f9f9f9, #d3d3d3);
+	width: 40%;
+    height: 34px;
+    color: black;
+    margin: 0 auto;
+}
+
+.form-submit {
+	display: inline-block;
+    background-color: rgb(90, 90, 90);
+    border: 1px solid rgb(23, 23, 23);
+    color: rgb(255, 255, 255);
+    display: none;
+    height: 2;
+    margin-left: 22%;
+    padding-top: -20%;
+    padding: 2%;
+    text-align: left;
+    width: 31%;
+}
+
+.contact-image {
+    width: 55%;
+    position: absolute;
+    top: 3%;
+    left: 31%;
+    z-index: -9;
+    margin-right: 10%;
+}
+
+
+.section-resume {
+	background-color: rgba(255,255,255, 0.9);
+	border: 1px solid rgb(212, 212, 212);
+	color: black;
+	margin: 2%;
+	padding: 2%;
+	margin-top: 4%;
+	width: 60%;
+}
+
+.section-resume h2 {
+	background-color: rgb(128, 175, 175);
+	padding: 1%;
+}
+
+.address {
+	text-align: center;
+}
+
+.underline {
+	background-color: rgb(128, 175, 175);
+	width: 100%;
+	height: 1px;
+}
+
+.section-resume h3 {
+
+}
+
+.section-resume h4 {
+
+}
+
+.section-resume h5 {
+	font-size: 1em;
+	color: black;
+}
+
+.section-resume p {
+	color: rgb(107, 107, 107);
+    margin-top: -8px;
+    margin-left: 7%;
+    font-size: .9em;
+}
+
+
+
+
